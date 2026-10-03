@@ -1,0 +1,34 @@
+{
+  "id": "hello",
+  "name": "Hello Betty",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "A tiny sample pack. Betty answers when you say hello.",
+  "clips": {},
+  "jokes": [
+    {
+      "id": "hello-001",
+      "setup": "Why did the cube say hello twice?",
+      "punchline": "Six faces. Somebody has to greet everyone.",
+      "tags": ["cube", "greeting"],
+      "holiday": null,
+      "weather": null
+    },
+    {
+      "id": "hello-002",
+      "setup": "Why does Betty love rainy days?",
+      "punchline": "Finally, a reason to stay inside the box.",
+      "tags": ["cube", "weather"],
+      "holiday": null,
+      "weather": "rain"
+    }
+  ],
+  "lines": {
+    "morning": ["Hello, early bird. The box is warm.", "Morning! Say hello and I will wave."],
+    "evening": ["Hello again. Long day?"]
+  },
+  "triggers": [
+    { "kind": "phrase", "phrase": "hello betty", "run": "script:onHello" }
+  ],
+  "script": "script.js"
+}

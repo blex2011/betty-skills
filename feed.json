@@ -1,5 +1,13 @@
 {
-  "version": 1,
-  "packs": [],
-  "app": null
+  "packs" : [
+    {
+      "id" : "hello",
+      "sha256" : "6bcdb78c5f5b2a5199944977d021d64ca0aa8dbe0fa4057c36dd9fb5ad2f3d29",
+      "signature" : "RjP+E1lvJpY76TXdDbA9+CK/P4+Knzr7yPN2tTeS3BRiJ7JJJUzixBGVEZTqNbc8ptIglIYRmirz8TyI5809BA==",
+      "size" : 1025,
+      "url" : "https://raw.githubusercontent.com/blex2011/betty-skills/main/releases/hello-1.0.0.zip",
+      "version" : "1.0.0"
+    }
+  ],
+  "version" : 1
 }
